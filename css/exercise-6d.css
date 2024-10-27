@@ -1,0 +1,23 @@
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+}
+
+u {
+  cursor: pointer;
+}
+u:hover {
+  color: darkblue;
+}

@@ -1,0 +1,78 @@
+div {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.uber {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  height: 36px;
+  width: 116px;
+  cursor: pointer;
+}
+
+.amazon {
+  background-color: #f9d84c;
+  color: #000000;
+  border: none;
+  height: 32px;
+  width: 160px;
+  border-radius: 80px;
+  cursor: pointer;
+}
+
+.github {
+  background-color: #55a459;
+  color: #ffffff;
+  border: none;
+  height: 36px;
+  width: 86px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bootstrap-start {
+  background-color: #7354ad;
+  color: #ffffff;
+  border: none;
+  height: 38px;
+  width: 116px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 6px;
+}
+.bootstrap-download {
+  background-color: #f8f9fa;
+  color: #606970;
+  border: 1px solid #606970;
+  height: 38px;
+  width: 116px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.linkedin-apply {
+  background-color: #2c64bb;
+  color: #ffffff;
+  border: none;
+  height: 36px;
+  width: 216px;
+  border-radius: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 6px;
+}
+.linkedin-save {
+  background-color: #f8f9fa;
+  color: #1257ad;
+  border: 1px solid #1257ad;
+  height: 36px;
+  width: 80px;
+  border-radius: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}

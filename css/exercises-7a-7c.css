@@ -1,0 +1,25 @@
+.coffee {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.rounded {
+  width: 200px;
+  border: 2px solid red;
+  border-radius: 26px;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 2px solid darkgreen;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  object-fit: cover;
+  border: 2px solid blue;
+}

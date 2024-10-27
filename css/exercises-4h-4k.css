@@ -1,0 +1,77 @@
+div {
+  display: inline-block;
+}
+
+button {
+  cursor: pointer;
+}
+
+.page-number {
+  margin: 0 10px;
+}
+.page-number button {
+  color: #551a8b;
+  border: none;
+  background-color: transparent;
+}
+.page-number button:active {
+  color: blue;
+}
+
+.stretch {
+  color: white;
+  background-color: green;
+  border: none;
+  padding: 6px 12px;
+  margin-top: 1em;
+  display: block;
+  transition: padding 0.5s;
+}
+.stretch:hover {
+  padding: 12px 30px;
+}
+.stretch:active {
+  opacity: 0.8;
+}
+
+.shadow {
+  color: white;
+  background-color: green;
+  border: none;
+  padding: 6px 12px;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  display: block;
+  transition: margin 0.25s, box-shadow 0.25s;
+}
+.shadow:hover {
+  background-color: darkgreen;
+}
+.shadow:active {
+  box-shadow: none;
+  margin-top: 16px;
+  margin-left: 2px;
+}
+
+.one,
+.two,
+.three {
+  color: white;
+  background-color: green;
+  border: none;
+  padding: 6px 12px;
+  margin: 0 10px;
+  transition: padding 0.5s, margin 0.5s;
+}
+.one:hover,
+.two:hover,
+.three:hover {
+  padding: 6px 18px;
+  margin: 0 4px;
+}
+.one:active,
+.two:active,
+.three:active {
+  background-color: darkgreen;
+}
